@@ -8,20 +8,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // BUBBLE_SPEED is now a base multiplier, not a constant speed
 
     const statements = [
-        "Wen Did I Jeet", "Wen Did I Sell", "Wen Did I Buy The Top", "Wen Did I Ape In",
-        "Wen Didn't I Ape In", "Wen Is It Pumping", "Wen Is It Dumping", "Wen The Pizza",
-        "Wen The Rug Pull", "Wen Is Gas So High", "Wen Did My Tx Fail", "Wen Am I Still Poor",
-        "Wen No Lambo", "Wen Did I Listen To CT", "Wen Didn't I Buy More", "Wen Is It Crabbing",
-        "Wen No Volume", "Why Did The Dev Go Silent", "Why Was The LP Pulled", "Wen Did I Paperhand",
-        "Wen Did I Diamondhand", "Wen Is My Wallet Drained", "Wen Did I Click The Link", "Wen Did He Block Me",
-        "Wen Is The Chart Ugly", "Wen Another Green Dildo", "Wen Another Red Dildo", "Wen Didn't I Take Profit",
-        "Wen Did I Go All In", "Wen Did I FOMO", "Wen Is The Floor So Thin", "Wen Did I Fat Finger",
-        "Wen Did The Buy Bot Stop", "Wen Did SBF Lie", "Wen Did I Trust The Influencer", "Wen Did I Buy This Dip",
-        "Wen Didn't It Bounce", "Wen Did I Get Liquidated", "Wen Use 100x Leverage", "Wen Did I Tell My Wife",
-        "Wen Is Everyone Rich But Me", "Wen Was The Telegram Deleted", "Wen The Dog With A Hat",
-        "Wen Did My Stop Loss Hit", "Wen No Parabolic Run", "Wen Did I Fall For It Again",
-        "Wen Is This So Addictive", "Wen Is It Always China Wake Up", "Wen Didn't I Bridge Sooner",
-        "Wen Is My Portfolio All Red"
+        "Wen I Jeet", "Wen I Sell", "Wen I Buy The Top", "Wen I Ape In",
+        "Wen I Ape In", "Wen Is It Pumping", "Wen Is It Dumping", "Wen The Pizza",
+        "Wen The Rug Pull", "Wen Full Send Again", "Wen Did My Tx Fail", "Wen Instant 100xr",
+        "WenLambo", "Wen Did I Listen To CT", "Wen I Buy More", "Wen it is Crabbing",
+        "Wen Volume", "Wen Sell Or Die", "Why Was The LP Pulled", "Wen Did I Paperhand",
+        "Wen I Diamondhand", "Wen Dev Said “Soon”", "Wen I Click The Link", "Wen He Block Me",
+        "Wen Is The Chart Ugly", "Wen Another Green Dildo", "Wen Another Red Dildo", "Wen I Take Profit",
+        "Wen I Go All In", "Wen Did I FOMO", "Wen Is The Floor So Thin", "Wen I Fat Finger",
+        "Wen The Buy Bot Stop", "Wen Did SBF Lie", "Wen Did I Trust The Influencer", "Wen Did I Buy This Dip",
+        "Wen It Bounce", "Wen Did I Get Liquidated", "Wen Use 100x Leverage", "Wen I Tell My Wife",
+        "Wen Rich Me", "Wen The Telegram Deleted", "Wen The Dog With A Hat",
+        "Wen My Stop Loss Hit", "Wen Parabolic Run", "Wen I Fall For It Again",
+        "Wen I Stop Feeling Joy", "Wen It Always China Wake Up", "Wen I Bridge Sooner",
+        "Wen I Lose Sleep"
     ];
 
     const statementsWithQuestionMarks = statements.map(s => s + '?');
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const caContainer = document.getElementById('ca-container');
     const caText = document.getElementById('ca-text');
     const tooltip = document.getElementById('copy-tooltip');
-    const contractAddress = "nsrsZP383CGbSh5Rhux2S6epv81R9xE77oMTHd4pump"; // <-- IMPORTANT: REPLACE THIS
+    const contractAddress = "BCd7QsDGCuiKK9sWs7uguKqnubhHHN8LQu9quVbbpump"; // <-- IMPORTANT: REPLACE THIS
 
     caText.textContent = contractAddress;
 
