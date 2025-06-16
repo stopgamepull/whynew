@@ -8,20 +8,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // BUBBLE_SPEED is now a base multiplier, not a constant speed
 
     const statements = [
-        "Why Did I Jeet", "Why Did I Sell", "Why Did I Buy The Top", "Why Did I Ape In",
-        "Why Didn't I Ape In", "Why Is It Pumping", "Why Is It Dumping", "Why The Pizza",
-        "Why The Rug Pull", "Why Is Gas So High", "Why Did My Tx Fail", "Why Am I Still Poor",
-        "Why No Lambo", "Why Did I Listen To CT", "Why Didn't I Buy More", "Why Is It Crabbing",
-        "Why No Volume", "Why Did The Dev Go Silent", "Why Was The LP Pulled", "Why Did I Paperhand",
-        "Why Did I Diamondhand", "Why Is My Wallet Drained", "Why Did I Click The Link", "Why Did He Block Me",
-        "Why Is The Chart Ugly", "Why Another Green Dildo", "Why Another Red Dildo", "Why Didn't I Take Profit",
-        "Why Did I Go All In", "Why Did I FOMO", "Why Is The Floor So Thin", "Why Did I Fat Finger",
-        "Why Did The Buy Bot Stop", "Why Did SBF Lie", "Why Did I Trust The Influencer", "Why Did I Buy This Dip",
-        "Why Didn't It Bounce", "Why Did I Get Liquidated", "Why Use 100x Leverage", "Why Did I Tell My Wife",
-        "Why Is Everyone Rich But Me", "Why Was The Telegram Deleted", "Why The Dog With A Hat",
-        "Why Did My Stop Loss Hit", "Why No Parabolic Run", "Why Did I Fall For It Again",
-        "Why Is This So Addictive", "Why Is It Always China Wake Up", "Why Didn't I Bridge Sooner",
-        "Why Is My Portfolio All Red"
+        "Wen Did I Jeet", "Wen Did I Sell", "Wen Did I Buy The Top", "Wen Did I Ape In",
+        "Wen Didn't I Ape In", "Wen Is It Pumping", "Wen Is It Dumping", "Wen The Pizza",
+        "Wen The Rug Pull", "Wen Is Gas So High", "Wen Did My Tx Fail", "Wen Am I Still Poor",
+        "Wen No Lambo", "Wen Did I Listen To CT", "Wen Didn't I Buy More", "Wen Is It Crabbing",
+        "Wen No Volume", "Why Did The Dev Go Silent", "Why Was The LP Pulled", "Wen Did I Paperhand",
+        "Wen Did I Diamondhand", "Wen Is My Wallet Drained", "Wen Did I Click The Link", "Wen Did He Block Me",
+        "Wen Is The Chart Ugly", "Wen Another Green Dildo", "Wen Another Red Dildo", "Wen Didn't I Take Profit",
+        "Wen Did I Go All In", "Wen Did I FOMO", "Wen Is The Floor So Thin", "Wen Did I Fat Finger",
+        "Wen Did The Buy Bot Stop", "Wen Did SBF Lie", "Wen Did I Trust The Influencer", "Wen Did I Buy This Dip",
+        "Wen Didn't It Bounce", "Wen Did I Get Liquidated", "Wen Use 100x Leverage", "Wen Did I Tell My Wife",
+        "Wen Is Everyone Rich But Me", "Wen Was The Telegram Deleted", "Wen The Dog With A Hat",
+        "Wen Did My Stop Loss Hit", "Wen No Parabolic Run", "Wen Did I Fall For It Again",
+        "Wen Is This So Addictive", "Wen Is It Always China Wake Up", "Wen Didn't I Bridge Sooner",
+        "Wen Is My Portfolio All Red"
     ];
 
     const statementsWithQuestionMarks = statements.map(s => s + '?');
